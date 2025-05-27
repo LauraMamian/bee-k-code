@@ -1,0 +1,72 @@
+@tailwind base;
+
+h1 {
+  @apply text-xl font-semibold;
+}
+
+h2 {
+  @apply text-xl font-semibold;
+}
+
+h3 {
+  @apply text-xl font-semibold;
+}
+
+h4 {
+  @apply text-lg font-semibold;
+}
+
+h5 {
+  @apply text-base font-semibold;
+}
+
+h6 {
+  @apply text-sm font-semibold;
+}
+
+p,
+body {
+  @apply text-sm leading-6 text-justify;
+}
+
+small {
+  @apply text-xs;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background-color: #f3a60d;
+  color: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f3a60d;
+  border-radius: 10px;
+}
